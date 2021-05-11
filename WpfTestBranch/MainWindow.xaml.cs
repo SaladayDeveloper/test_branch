@@ -24,5 +24,11 @@ namespace WpfTestBranch
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SecondWindow sw = new SecondWindow();
+            sw.Show();
+        }
     }
 }
